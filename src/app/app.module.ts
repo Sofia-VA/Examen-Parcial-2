@@ -10,6 +10,10 @@ import { TsfhPage } from '../pages/tsfh/tsfh';
 import { RoninPage } from '../pages/ronin/ronin';
 import { LesFrictionPage } from '../pages/les-friction/les-friction';
 import { RobotFacePage } from '../pages/robot-face/robot-face';
+import { TbioPage } from '../pages/tbio/tbio';
+import { RbioPage } from '../pages/rbio/rbio';
+import { RFbioPage } from '../pages/r-fbio/r-fbio';
+import { LFbioPage } from '../pages/l-fbio/l-fbio';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { RobotFacePage } from '../pages/robot-face/robot-face';
     TsfhPage,
     RoninPage,
     LesFrictionPage,
-    RobotFacePage
+    RobotFacePage,
+    TbioPage,
+    RbioPage,
+    RFbioPage,
+    LFbioPage
 
   ],
   imports: [
@@ -32,8 +40,11 @@ import { RobotFacePage } from '../pages/robot-face/robot-face';
     TsfhPage,
     RoninPage,
     LesFrictionPage,
-    RobotFacePage 
-
+    RobotFacePage,
+    TbioPage,
+    RbioPage,
+    RFbioPage,
+    LFbioPage
   ],
   providers: [
     StatusBar,

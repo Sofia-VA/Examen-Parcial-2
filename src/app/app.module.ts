@@ -14,6 +14,14 @@ import { TbioPage } from '../pages/tbio/tbio';
 import { RbioPage } from '../pages/rbio/rbio';
 import { RFbioPage } from '../pages/r-fbio/r-fbio';
 import { LFbioPage } from '../pages/l-fbio/l-fbio';
+import { TsongsPage } from '../pages/tsongs/tsongs';
+import { RsongsPage } from '../pages/rsongs/rsongs';
+import { RFsongsPage } from '../pages/r-fsongs/r-fsongs';
+import { LFsongsPage } from '../pages/l-fsongs/l-fsongs';
+import { TRevPage } from '../pages/t-rev/t-rev';
+import { RRevPage } from '../pages/r-rev/r-rev';
+import { RfRevPage } from '../pages/rf-rev/rf-rev';
+import { LfRevPage } from '../pages/lf-rev/lf-rev';
 
 @NgModule({
   declarations: [
@@ -26,7 +34,15 @@ import { LFbioPage } from '../pages/l-fbio/l-fbio';
     TbioPage,
     RbioPage,
     RFbioPage,
-    LFbioPage
+    LFbioPage,
+    TsongsPage,
+    RsongsPage,
+    RFsongsPage,
+    LFsongsPage,
+    TRevPage,
+    RRevPage,
+    RfRevPage,
+    LfRevPage
 
   ],
   imports: [
@@ -44,7 +60,15 @@ import { LFbioPage } from '../pages/l-fbio/l-fbio';
     TbioPage,
     RbioPage,
     RFbioPage,
-    LFbioPage
+    LFbioPage,
+    TsongsPage,
+    RsongsPage,
+    RFsongsPage,
+    LFsongsPage,
+    TRevPage,
+    RRevPage,
+    RfRevPage,
+    LfRevPage
   ],
   providers: [
     StatusBar,

@@ -8,6 +8,14 @@ import { TbioPage } from '../tbio/tbio';
 import { RbioPage } from '../rbio/rbio';
 import { LFbioPage } from '../l-fbio/l-fbio';
 import { RFbioPage } from '../r-fbio/r-fbio';
+import { TsongsPage } from '../tsongs/tsongs';
+import { RsongsPage } from '../rsongs/rsongs';
+import { RFsongsPage } from '../r-fsongs/r-fsongs';
+import { LFsongsPage } from '../l-fsongs/l-fsongs';
+import { TRevPage } from '../t-rev/t-rev';
+import { RRevPage } from '../r-rev/r-rev';
+import { RfRevPage } from '../rf-rev/rf-rev';
+import { LfRevPage } from '../lf-rev/lf-rev';
 
 @Component({
   selector: 'page-home',
@@ -23,7 +31,15 @@ export class HomePage {
   Rbio=RbioPage;
   LFbio=LFbioPage;
   RFbio=RFbioPage;
-
+  Ts=TsongsPage;
+  Rs=RsongsPage;
+  RFs=RFsongsPage;
+  LFs=LFsongsPage;
+  Tr=TRevPage;
+  Rr=RRevPage;
+  RFr=RfRevPage;
+  LFr=LfRevPage;
+  
   constructor(public navCtrl: NavController) {
 
   }
@@ -49,7 +65,6 @@ export class HomePage {
   {
     this.navCtrl.push(this.Tbio);
   }
-
   clickRbio ()
   {
     this.navCtrl.push(this.Rbio);
@@ -61,5 +76,37 @@ export class HomePage {
   clickRFbio()
   {
     this.navCtrl.push(this.RFbio);
+  }
+  clickTs ()
+  {
+    this.navCtrl.push(this.Ts);
+  }
+  clickRs ()
+  {
+    this.navCtrl.push(this.Rs);
+  }
+  clickLFs ()
+  {
+    this.navCtrl.push(this.LFs);
+  }
+  clickRFs()
+  {
+    this.navCtrl.push(this.RFs);
+  }
+  clickTr ()
+  {
+    this.navCtrl.push(this.Tr);
+  }
+  clickRr ()
+  {
+    this.navCtrl.push(this.Rr);
+  }
+  clickLFr ()
+  {
+    this.navCtrl.push(this.LFr);
+  }
+  clickRFr()
+  {
+    this.navCtrl.push(this.RFr);
   }
 }
